@@ -4,311 +4,365 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Software Engineer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mileesha Fernando | Software Engineer & Cloud Trainee</title>
+    <meta name="description" content="Portfolio of Mileesha Fernando - Undergraduate Trainee Software Engineer at IFS R&D International. Open for Software Engineering & DevOps Opportunities.">
+    
+    <!-- Google Fonts: Anton for bold Carrd headings & Inter for clean body text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Portfolio</div>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">Mileesha Fernando</h1>
-            <h2 class="hero-subtitle">Undergraduate Trainee Software Engineer</h2>
-            <p class="hero-subtitle2">Full-Stack Development & Cloud Infrastructure Engineering</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                <a href="#projects" class="btn btn-secondary">View Projects</a>
-            </div>
-        </div>
-    </section>
+    <!-- Main Container Wrapper -->
+    <div class="carrd-wrapper">
 
-    <!-- About Me Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image-container">
-                    <img src="port_image.jpeg" alt="Profile" class="about-image">
+        <!-- 1. NAVBAR / HEADER CARD BOX -->
+        <header class="carrd-navbar carrd-card-box">
+            <a href="#" class="carrd-brand">MILEESHA FERNANDO</a>
+            <nav class="carrd-nav">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="btn-carrd-contact">
+                <i class="fa-regular fa-paper-plane"></i> Contact Me
+            </a>
+        </header>
+
+        <!-- 2. HERO SECTION CARD BOX -->
+        <section class="carrd-hero carrd-card-box" id="about">
+            <div class="hero-text-col">
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    <span>Open for Software Engineering &amp; DevOps Opportunities</span>
                 </div>
-                <div class="about-text-container">
-                    <p class="about-text">
-                        Motivated Undergraduate Trainee Software Engineer with hands-on experience in full-stack
-                        development and cloud infrastructure engineering. Currently working within an enterprise-grade
-                        environment, supporting scalable cloud platforms and deployment pipelines. Possess a strong
-                        foundation in object-oriented programming, software design patterns, database design, and
-                        distributed systems, complemented by practical exposure to DevOps practices, automation, and
-                        infrastructure management. Passionate about building reliable systems and continuously expanding
-                        expertise in full-stack development, cloud platforms, and DevOps engineering.
-                    </p>
+
+                <h1 class="carrd-title">HI, I'M MILEESHA</h1>
+                <h2 class="carrd-subtitle">UNDERGRADUATE TRAINEE SOFTWARE ENGINEER</h2>
+
+                <p class="carrd-bio">
+                    Motivated Undergraduate Trainee Software Engineer with hands-on experience in backend development and cloud-based environments. Skilled in Java, OOP, design patterns, and building scalable applications with REST APIs and database design principles. Experienced with CI/CD concepts, Docker, Kubernetes, Linux, and infrastructure automation using Terraform and Chef. Currently contributing to the <strong>Cloud Infrastructure Team at IFS R&amp;D International (Pvt) Ltd</strong>.
+                </p>
+
+                <div class="contact-pills-list">
+                    <a href="https://www.linkedin.com/in/mileesha-fernando-582aab311/" target="_blank" rel="noopener noreferrer" class="contact-pill">
+                        <i class="fa-brands fa-linkedin"></i> linkedin.com/in/mileesha-fernando-582aab311
+                    </a>
+                    <a href="mailto:fernandoshamen77@gmail.com" class="contact-pill">
+                        <i class="fa-regular fa-envelope"></i> fernandoshamen77@gmail.com
+                    </a>
+                    <a href="tel:+94763619489" class="contact-pill">
+                        <i class="fa-solid fa-phone"></i> +94 76 361 9489
+                    </a>
+                    <a href="https://mileeshafernando.netlify.app/" target="_blank" rel="noopener noreferrer" class="contact-pill">
+                        <i class="fa-solid fa-globe"></i> mileeshafernando.netlify.app
+                    </a>
+                    <span class="contact-pill no-click">
+                        <i class="fa-solid fa-location-dot"></i> Wennappuwa, Sri Lanka
+                    </span>
+                    <a href="https://github.com/Grandeur77" target="_blank" rel="noopener noreferrer" class="contact-pill">
+                        <i class="fa-brands fa-github"></i> github.com/Grandeur77
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Professional Experience Section -->
-    <section id="experience" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3 class="experience-title">Undergraduate Trainee Software Engineer</h3>
-                    <span class="experience-company">IFS</span>
-                    <span class="experience-team">Cloud Infrastructure Team</span>
+            <div class="hero-img-col">
+                <div class="headshot-wrapper">
+                    <img src="port_image.jpeg" alt="Mileesha Fernando Profile Picture" class="headshot-img">
                 </div>
-                <ul class="experience-list">
-                    <li>Contributed to the Cloud Infrastructure team, managing and supporting enterprise system
-                        environments including IFS Applications 10 (Apps10), IFS Cloud, and IFS Remote.</li>
-                    <li>Assisted in cloud deployments, configuration management, and maintenance of scalable
-                        environments across development and testing stages.</li>
-                    <li>Gained hands-on experience with Linux system administration, Bash/Shell scripting, and
-                        cloud-native tooling.</li>
-                    <li>Worked extensively with Docker and Kubernetes to support containerized workloads and
-                        orchestration.</li>
-                    <li>Supported Azure-based infrastructure, contributing to reliable and secure cloud environments.
-                    </li>
-                    <li>Assisted in infrastructure automation and configuration using Chef and Terraform, improving
-                        environment consistency and reducing manual setup effort.</li>
-                    <li>Performed troubleshooting, monitoring, and root-cause analysis to resolve deployment,
-                        configuration, and environment-related issues.</li>
-                    <li>Collaborated with cross-functional teams and followed version control best practices to support
-                        CI/CD and continuous integration workflows.</li>
-                </ul>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-
-            <!-- Entry 1 -->
-            <div class="education-item">
-                <h3 class="education-degree">Bsc.(Hons) in Computing - Reading</h3>
-                <p class="education-university">Coventry University, UK</p>
-                <p class="education-level">Undergraduate</p>
+        <!-- 3. CORE COMPETENCIES CARD BOX -->
+        <section class="carrd-section carrd-card-box">
+            <h2 class="carrd-heading">CORE COMPETENCIES</h2>
+            <div class="competencies-grid">
+                <div class="competency-box">
+                    <div class="comp-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Backend Engineering</h3>
+                    <p>Proficient in Java, Spring Boot, REST API development, C#, Node.js, OOP design patterns, and relational databases (MySQL, Oracle DB, MongoDB).</p>
+                </div>
+                <div class="competency-box">
+                    <div class="comp-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>Cloud &amp; Infrastructure</h3>
+                    <p>Contributing to IFS Cloud Infrastructure, Apps10, and IFS Remote with Docker containerization, Kubernetes orchestration, and Azure cloud services.</p>
+                </div>
+                <div class="competency-box">
+                    <div class="comp-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3>DevOps &amp; Automation</h3>
+                    <p>Hands-on experience with infrastructure automation using Terraform and Chef, Linux administration, Bash scripting, and CI/CD integration workflows.</p>
+                </div>
             </div>
+        </section>
 
-            <!-- Entry 2 -->
-            <div class="education-item">
-                <h3 class="education-degree">Higher National Diploma in Software Engineering</h3>
-                <p class="education-university">National Institute of Business Management</p>
-                <p class="education-level">May 2024 - May 2025 | GPA - 3.8</p>
-            </div>
+        <!-- 4. WORK EXPERIENCE & SKILLS CARD BOX -->
+        <section class="carrd-section carrd-card-box" id="experience">
+            <div class="split-columns">
+                
+                <!-- LEFT COLUMN: WORK EXPERIENCE -->
+                <div class="split-col-left">
+                    <h2 class="carrd-heading">WORK EXPERIENCE</h2>
+                    
+                    <div class="timeline-block">
+                        <h3 class="role-title">UNDERGRADUATE TRAINEE SOFTWARE ENGINEER</h3>
+                        <h4 class="company-title">IFS R&amp;D International (Pvt) Ltd</h4>
+                        <span class="date-badge"><i class="fa-regular fa-calendar"></i> May 2025 - Present</span>
+                        
+                        <p class="role-desc">
+                            Worked in Cloud Infrastructure team supporting Apps10, IFS Cloud, and IFS Remote environments across development and testing stages.
+                        </p>
 
-            <!-- Entry 3 -->
-            <div class="education-item">
-                <h3 class="education-degree">Diploma in Software Engineering</h3>
-                <p class="education-university">National Institute of Business Management</p>
-                <p class="education-level">Mar 2023 - Apr 2024 | GPA - 3.9</p>
-            </div>
+                        <ul class="role-bullets">
+                            <li>Worked in Cloud Infrastructure team supporting Apps10, IFS Cloud, and IFS Remote environments across development and testing stages.</li>
+                            <li>Assisted in cloud deployments, configuration management, and environment setup for scalable and stable systems.</li>
+                            <li>Utilized Linux, Bash/Shell scripting, Docker, and Kubernetes for system administration and containerized deployments.</li>
+                            <li>Supported infrastructure automation using Terraform and Chef to improve deployment consistency and reduce manual effort.</li>
+                            <li>Performed troubleshooting, monitoring, and root-cause analysis for deployment and configuration-related issues.</li>
+                            <li>Collaborated with development, QA, and platform teams using version control and CI/CD workflows to support continuous integration and delivery.</li>
+                        </ul>
 
-            <!-- Entry 4 -->
-            <div class="education-item">
-                <h3 class="education-degree">Diploma in English Language & Literature</h3>
-                <p class="education-university">Aquinas College of Higher Studies</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technical Skills Section -->
-    <section id="skills" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Bash / Shell Scripting</span>
+                        <div class="skill-tags-inline">
+                            <span>Linux</span> <span>Bash</span> <span>Docker</span> <span>Kubernetes</span> <span>Terraform</span> <span>Chef</span> <span>Azure</span> <span>Apps10</span> <span>IFS Cloud</span>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Frameworks & Technologies</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Spring Boot</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">RESTful APIs</span>
-                        <span class="skill-tag">JWT Authentication</span>
+
+                <!-- RIGHT COLUMN: ENHANCED TECHNICAL SKILLS TAILORED TO MILEESHA -->
+                <div class="split-col-right" id="skills">
+                    <h2 class="carrd-heading">TECHNICAL SKILLS</h2>
+
+                    <div class="skill-group">
+                        <h3>Programming &amp; Languages</h3>
+                        <p>Java, C# (.NET), JavaScript, Bash/Shell Scripting, SQL, Python, HTML5, CSS3, TailwindCSS</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Cloud &amp; DevOps Engineering</h3>
+                        <p>Docker Containerization, Kubernetes Orchestration, Terraform Infrastructure as Code (IaC), Chef Automation, Microsoft Azure, Linux Administration, CI/CD Integration Workflows, IFS Applications 10 &amp; IFS Cloud</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Backend Frameworks &amp; Web</h3>
+                        <p>Spring Boot, Java Servlets &amp; JSP, Node.js, Express.js, RESTful API Architecture, Microservices Concepts, Swing, WinForms</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Databases &amp; Cloud Storage</h3>
+                        <p>MySQL, Oracle DB, Microsoft SQL Server, MongoDB, Firebase Realtime Database</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Developer Tools &amp; Testing</h3>
+                        <p>Git, GitHub, GitLab, Postman, Maven, VS Code, IntelliJ IDEA, NetBeans IDE, Android Studio, Google Maps API Integration</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Engineering Practices</h3>
+                        <p>Object-Oriented Programming (OOP), Data Structures &amp; Algorithms, Software Design Patterns, Database Schema Design, Agile/Scrum, Root Cause Analysis &amp; System Troubleshooting</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Soft Skills</h3>
+                        <p>Adaptability, Team Communication, Time Management, Analytical Thinking, Continuous Learning, Leadership, Flexibility</p>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Databases</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Oracle Database</span>
-                        <span class="skill-tag">Firebase</span>
+
+            </div>
+        </section>
+
+        <!-- 5. FEATURED PROJECTS CARD BOX -->
+        <section class="carrd-section carrd-card-box" id="projects">
+            <h2 class="carrd-heading center-heading">PROJECTS</h2>
+            
+            <div class="carrd-projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-box">
+                    <div class="project-header">
+                        <span class="project-badge">Individual</span>
+                        <a href="https://github.com/Grandeur77/DonateMe.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+                            <i class="fa-brands fa-github"></i> Repository
+                        </a>
+                    </div>
+                    <h3>Smart Donation Mobile Application</h3>
+                    <p>Android app that connects donors and recipients for food, clothes, and essential item donations. Supports location tracking via Google Maps API and real-time data using Firebase.</p>
+                    <div class="project-tech">Java (Android), Firebase Realtime Database, Google Maps, Android Studio</div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-box">
+                    <div class="project-header">
+                        <span class="project-badge group">Group</span>
+                        <a href="https://github.com/Grandeur77/Educational-Institute-Management-System.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+                            <i class="fa-brands fa-github"></i> Repository
+                        </a>
+                    </div>
+                    <h3>Educational Institute Management System</h3>
+                    <p>A full-stack application designed to manage core operations of an educational institute. This system streamlines administrative tasks and enhances institutional efficiency.</p>
+                    <div class="project-tech">C# (Windows Forms), SQL Server, Visual Studio, .NET</div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-box">
+                    <div class="project-header">
+                        <span class="project-badge group">Group</span>
+                        <a href="https://github.com/Grandeur77/WorkWave-Online-Shopping.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+                            <i class="fa-brands fa-github"></i> Repository
+                        </a>
+                    </div>
+                    <h3>Online Freelancing Web Application</h3>
+                    <p>A freelance service marketplace that connects clients with skilled freelancers for digital service exchange. Features secure transactions and real-time info for buying/selling services.</p>
+                    <div class="project-tech">React, Java (Spring Boot), MySQL, IntelliJ IDEA</div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-box">
+                    <div class="project-header">
+                        <span class="project-badge group">Group</span>
+                        <a href="https://github.com/Grandeur77/Laundry-Management-System.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+                            <i class="fa-brands fa-github"></i> Repository
+                        </a>
+                    </div>
+                    <h3>Laundry Management System</h3>
+                    <p>A web-based application for managing laundry services, including customer, order, service, and inventory management. Features an admin dashboard for centralized control.</p>
+                    <div class="project-tech">Java Servlets, JSP, MySQL, TailwindCSS, Maven</div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-box">
+                    <div class="project-header">
+                        <span class="project-badge">Individual</span>
+                        <a href="https://github.com/Grandeur77/Travel-Planner-Tool.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+                            <i class="fa-brands fa-github"></i> Repository
+                        </a>
+                    </div>
+                    <h3>Travel Planner Tool</h3>
+                    <p>A desktop application that helps users plan trips by managing destinations, budgets, and itineraries. Supports user registration, travel tracking, and cost estimation.</p>
+                    <div class="project-tech">Java (Swing), MySQL, NetBeans IDE</div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-box">
+                    <div class="project-header">
+                        <span class="project-badge group">Group</span>
+                        <a href="https://github.com/Grandeur77" target="_blank" rel="noopener noreferrer" class="repo-link">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                    <h3>Smart Cradle System</h3>
+                    <p>IoT-based infant monitoring solution with features like auto swinging, wet and temperature detection and night light control. Integrated with a real-time Android app using Firebase for remote monitoring.</p>
+                    <div class="project-tech">Java (Android), Firebase Realtime Database, Google Auth, Android Studio</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 6. EDUCATION & ACHIEVEMENTS CARD BOX -->
+        <section class="carrd-section carrd-card-box" id="education">
+            <div class="split-columns">
+                
+                <!-- LEFT COLUMN: EDUCATION FROM CV -->
+                <div class="split-col-left">
+                    <h2 class="carrd-heading">EDUCATION</h2>
+
+                    <div class="edu-item">
+                        <h3>Bsc.(Hons) in Computing</h3>
+                        <h4>Coventry University, UK <span class="edu-tag">Reading</span></h4>
+                        <p>Specialization in Software Engineering.</p>
+                    </div>
+
+                    <div class="edu-item">
+                        <h3>Higher National Diploma in Software Engineering</h3>
+                        <h4>National Institute of Business Management (NIBM) <span class="gpa-tag">GPA 3.8</span></h4>
+                        <p><i class="fa-regular fa-calendar"></i> May 2024 - May 2025</p>
+                    </div>
+
+                    <div class="edu-item">
+                        <h3>Diploma in Software Engineering</h3>
+                        <h4>National Institute of Business Management (NIBM) <span class="gpa-tag">GPA 3.9</span></h4>
+                        <p><i class="fa-regular fa-calendar"></i> Mar 2023 - Apr 2024</p>
+                    </div>
+
+                    <div class="edu-item">
+                        <h3>Diploma in English Language &amp; Literature</h3>
+                        <h4>Aquinas College of Higher Studies</h4>
+                        <p>Specialized language and literature diploma program.</p>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Cloud & DevOps</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Microsoft Azure</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Kubernetes</span>
-                        <span class="skill-tag">Terraform</span>
-                        <span class="skill-tag">Chef</span>
-                        <span class="skill-tag">CI/CD Pipelines</span>
+
+                <!-- RIGHT COLUMN: ACHIEVEMENTS, CERTIFICATES & COMMUNITIES FROM CV -->
+                <div class="split-col-right">
+                    <h2 class="carrd-heading">COMPETITIONS &amp; CERTIFICATIONS</h2>
+
+                    <div class="achieve-group">
+                        <h3>Competitions &amp; Awards</h3>
+                        <ul class="simple-list">
+                            <li><span class="trophy-badge">🏆 Champions</span> - HackElite 1.0 by UOM (University of Moratuwa)</li>
+                            <li><span class="trophy-badge finalist">🏅 Finalists</span> - J'pura Xtream by UOJ (University of Sri Jayewardenepura)</li>
+                            <li><span>Participant</span> - MoraXtreme 9.0 by UOM</li>
+                            <li><span>Participant</span> - CodeRally 5.0 by UOJ</li>
+                        </ul>
+                    </div>
+
+                    <div class="achieve-group">
+                        <h3>Certificates</h3>
+                        <ul class="simple-list">
+                            <li>Database Design Learner - Oracle</li>
+                            <li>Database Foundations - Oracle</li>
+                            <li>POSTMAN API Fundamentals Student Expert</li>
+                            <li>Python for Beginners - Microsoft</li>
+                        </ul>
+                    </div>
+
+                    <div class="achieve-group">
+                        <h3>Communities</h3>
+                        <ul class="simple-list">
+                            <li>IEEE Student Branch of NIBM Member</li>
+                            <li>Computer Society in NIBM Member</li>
+                            <li>Women Techmakers Member</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Tools & Platforms</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git & GitHub</span>
-                        <span class="skill-tag">Linux (Ubuntu / CentOS)</span>
-                        <span class="skill-tag">Virtualization (VM environments)</span>
-                        <span class="skill-tag">Postman</span>
-                        <span class="skill-tag">Android Studio</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <a href="https://github.com/Grandeur77/DonateMe.git" target="_blank" class="project-card project-link">
-                    <h3 class="project-title">DonateMe</h3>
-                    <p class="project-description">
-                        A full-stack donation platform. Designed and developed using Spring Boot and React. Implemented
-                        secure authentication and payment gateway integration.
-                    </p>
-                    <span class="click-hint">Click to view on GitHub &rarr;</span>
+            </div>
+        </section>
+
+        <!-- 7. FOOTER & CONTACT CARD BOX -->
+        <footer class="carrd-footer carrd-card-box" id="contact">
+            <h2 class="carrd-heading">GET IN TOUCH</h2>
+            <p class="footer-intro">Feel free to connect for software engineering, backend development, or DevOps opportunities &amp; collaborations.</p>
+
+            <div class="footer-buttons-row">
+                <a href="mailto:fernandoshamen77@gmail.com" class="footer-btn highlight-btn">
+                    <i class="fa-regular fa-envelope"></i> Send Email
                 </a>
-                <a href="https://github.com/Grandeur77/Educational-Institute-Management-System.git" target="_blank"
-                    class="project-card project-link">
-                    <h3 class="project-title">Educational Institute Management System</h3>
-                    <p class="project-description">
-                        A full-stack application designed to manage core operations of an educational institute. This
-                        system streamlines administrative tasks and enhances institutional efficiency.
-                    </p>
-                    <span class="click-hint">Click to view on GitHub &rarr;</span>
+                <a href="https://www.linkedin.com/in/mileesha-fernando-582aab311/" target="_blank" rel="noopener noreferrer" class="footer-btn">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
                 </a>
-                <a href="https://github.com/Grandeur77/WorkWave-Online-Shopping.git" target="_blank"
-                    class="project-card project-link">
-                    <h3 class="project-title">Online Freelancing Web Application</h3>
-                    <p class="project-description">
-                        A freelance service marketplace that connects clients with skilled freelancers for digital
-                        service
-                        exchange. It features secure transactions, and real-time info making it easy to buy or sell
-                        services.
-                    </p>
-                    <span class="click-hint">Click to view on GitHub &rarr;</span>
-                </a>
-                <a href="https://github.com/Grandeur77/Laundry-Management-System.git" target="_blank"
-                    class="project-card project-link">
-                    <h3 class="project-title">Laundry Management System</h3>
-                    <p class="project-description">
-                        A web-based application for managing laundry services, including customer, order, service, and
-                        inventory management. Features an admin dashboard for centralized control.
-                    </p>
-                    <span class="click-hint">Click to view on GitHub &rarr;</span>
-                </a>
-                <a href="https://github.com/Grandeur77/Smart_Cradle_System.git" target="_blank"
-                    class="project-card project-link">
-                    <h3 class="project-title">Smart Cradle System</h3>
-                    <p class="project-description">
-                        IoT-based infant monitoring solution with features like auto swinging, wet and temperature
-                        detection and night light control. Integrated with a real-time Android app using Firebase for
-                        remote monitoring.
-                    </p>
-                    <span class="click-hint">Click to view on GitHub &rarr;</span>
-                </a>
-                <a href="https://github.com/Grandeur77/Travel-Planner-Tool.git" target="_blank"
-                    class="project-card project-link">
-                    <h3 class="project-title">Travel Planner Tool</h3>
-                    <p class="project-description">
-                        A desktop application that helps users plan trips by managing destinations, budgets, and
-                        itineraries. Supports user registration, travel tracking, and cost estimation.
-                    </p>
-                    <span class="click-hint">Click to view on GitHub &rarr;</span>
+                <a href="https://github.com/Grandeur77" target="_blank" rel="noopener noreferrer" class="footer-btn">
+                    <i class="fa-brands fa-github"></i> GitHub Repositories
                 </a>
             </div>
-        </div>
-    </section>
 
-
-
-    <!-- Career Interests Section -->
-    <section id="interests" class="section">
-        <div class="container">
-            <h2 class="section-title">Career Interests</h2>
-            <div class="interests-grid">
-                <div class="interest-item">Full-Stack Software Development</div>
-                <div class="interest-item">Backend Engineering</div>
-                <div class="interest-item">Cloud Infrastructure Engineering</div>
-                <div class="interest-item">DevOps & Automation</div>
-                <div class="interest-item">Scalable System Design</div>
+            <div class="footer-credits">
+                <p>&copy; <span id="current-year">2026</span> Mileesha Fernando. All rights reserved.</p>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Professional Links</h2>
-            <div class="contact-links">
-                <a href="https://github.com/Grandeur77" target="_blank" class="contact-link" id="github-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                    </svg>
-                    <span>GitHub</span>
-                </a>
-                <a href="https://www.linkedin.com/in/mileesha-fernando-582aab311/" target="_blank" class="contact-link"
-                    id="linkedin-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                    </svg>
-                    <span>LinkedIn</span>
-                </a>
-                <a href="mailto:fernandoshamen77@gmail.com" class="contact-link" id="email-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                        <polyline points="22,6 12,13 2,6" />
-                    </svg>
-                    <span>Email</span>
-                </a>
-            </div>
-        </div>
-    </section>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Portfolio. All rights reserved.</p>
-        </div>
-    </footer>
-
+    <!-- JS Script -->
     <script src="script.js"></script>
 </body>
 
