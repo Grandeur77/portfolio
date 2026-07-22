@@ -353,6 +353,8 @@ body::before {
     overflow: hidden;
     border: 2px solid rgba(30, 58, 138, 0.15);
     box-shadow: var(--shadow-headshot);
+    margin-top: -24px;
+    transform: translateY(-24px);
 }
 
 .headshot-img {
