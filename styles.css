@@ -28,6 +28,7 @@
     --gradient-heading: linear-gradient(135deg, #0b132b 0%, #1c2541 40%, #1d4ed8 100%);
     --gradient-subheading: linear-gradient(135deg, #1c2541 0%, #1e3a8a 60%, #2563eb 100%);
     --gradient-button: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+    --gradient-cv: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
 
     /* Text Colors */
     --text-main: #1e293b;
@@ -78,7 +79,7 @@ body::after {
                 radial-gradient(circle at 90% 80%, rgba(224, 231, 255, 0.6) 0%, transparent 40%);
 }
 
-/* Wyomi's Exact Geometric SVG Polygon Background Image Pattern (High Opacity & Visibility) */
+/* Wyomi's Exact Geometric SVG Polygon Background Image Pattern */
 body::before {
     content: '';
     display: block;
@@ -104,7 +105,7 @@ body::before {
     z-index: 1;
 }
 
-/* SEPARATE CARD BOXES (User Requested Separate Boxes per Section) */
+/* SEPARATE CARD BOXES */
 .carrd-card-box {
     background: var(--bg-card);
     border-radius: var(--radius-card);
@@ -157,6 +158,32 @@ body::before {
     color: var(--dark-blue-2);
 }
 
+.header-cta-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-carrd-cv {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    background: rgba(30, 58, 138, 0.08);
+    border: 1px solid var(--border-blue);
+    color: var(--dark-blue-2);
+    font-weight: 600;
+    font-size: 0.88rem;
+    border-radius: var(--radius-pill);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.btn-carrd-cv:hover {
+    background: rgba(30, 58, 138, 0.15);
+    transform: translateY(-2px);
+}
+
 .btn-carrd-contact {
     display: inline-flex;
     align-items: center;
@@ -185,18 +212,38 @@ body::before {
     align-items: center;
 }
 
+/* Status Badges Row */
+.status-pills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
 .status-pill {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     padding: 6px 16px;
-    background: rgba(16, 185, 129, 0.1);
-    border: 1px solid rgba(16, 185, 129, 0.3);
     border-radius: var(--radius-pill);
     font-size: 0.82rem;
-    color: #059669;
     font-weight: 600;
-    margin-bottom: 20px;
+}
+
+.status-pill.green-status {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: #059669;
+}
+
+.status-pill.ifs-status {
+    background: rgba(30, 27, 75, 0.08);
+    border: 1px solid rgba(30, 27, 75, 0.25);
+    color: #1e1b4b;
+}
+
+.status-pill.ifs-status i {
+    color: #4338ca;
 }
 
 .status-dot {
@@ -244,7 +291,7 @@ body::before {
     color: var(--dark-blue-2);
 }
 
-/* Contact Pills List (Dark Blue Theme) */
+/* Contact Pills List */
 .contact-pills-list {
     display: flex;
     flex-wrap: wrap;
@@ -266,12 +313,28 @@ body::before {
     transition: var(--transition);
 }
 
+.contact-pill.download-cv-pill {
+    background: var(--gradient-button);
+    color: #ffffff;
+    border: none;
+    box-shadow: var(--shadow-button);
+}
+
+.contact-pill.download-cv-pill i {
+    color: #ffffff;
+}
+
+.contact-pill.download-cv-pill:hover {
+    box-shadow: 0 6px 20px rgba(30, 58, 138, 0.45);
+    transform: translateY(-2px);
+}
+
 .contact-pill i {
     color: var(--dark-blue-3);
     font-size: 1rem;
 }
 
-.contact-pill:not(.no-click):hover {
+.contact-pill:not(.no-click):not(.download-cv-pill):hover {
     background: var(--bg-pill-hover);
     border-color: var(--dark-blue-3);
     transform: translateY(-2px);
@@ -304,7 +367,7 @@ body::before {
     transform: scale(1.02);
 }
 
-/* Section Headings (Dark Blue Gradient) */
+/* Section Headings */
 .carrd-heading {
     font-family: 'Anton', sans-serif;
     font-size: 2.2rem;
@@ -375,9 +438,31 @@ body::before {
     gap: 48px;
 }
 
-/* Timeline Block */
+/* Timeline Block & Company Header with IFS Logo */
 .timeline-block {
     margin-bottom: 24px;
+}
+
+.company-header-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.ifs-company-logo {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(30, 27, 75, 0.15);
+    border: 2px solid rgba(30, 58, 138, 0.15);
+    transition: var(--transition);
+}
+
+.ifs-company-logo:hover {
+    transform: scale(1.08);
 }
 
 .role-title {
@@ -712,6 +797,11 @@ body::before {
     .carrd-navbar {
         flex-direction: column;
         gap: 16px;
+    }
+
+    .header-cta-group {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .carrd-nav {
