@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <rect width="200" height="80" rx="12" fill="#1e1b4b"/>
+  <text x="50%" y="55%" fill="#ffffff" font-family="'Anton', 'Arial Black', sans-serif" font-size="38" font-weight="900" text-anchor="middle" dominant-baseline="middle" letter-spacing="4">IFS</text>
+  <circle cx="160" cy="28" r="5" fill="#38bdf8"/>
+</svg>
